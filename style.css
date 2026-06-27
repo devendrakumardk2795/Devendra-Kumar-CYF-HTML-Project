@@ -1,0 +1,82 @@
+/*$brandColor: darkorchid; */
+body {
+  font-family: system-ui, sans-serif;
+  /*background: linear-gradient(to bottom,
+    $brandColor,
+    darken($brandColor, 15%)
+  ); */
+  color: white;
+  font-size: 25px;
+  /* height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center; */
+}
+
+.image-info {
+  display: flex;
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+  height: 100vh;
+}
+
+.text-cat1 {
+  font-size: 40px;
+}
+
+.image-center {
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 90%;
+  border-bottom: 2px solid transparent;
+}
+
+.centered-image-2 {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+}
+
+.fixed-bg {
+  /* The background image */
+  background-image: url("https://images2.alphacoders.com/464/thumb-1920-464926.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+em {
+  color: #00ef00;
+}
+
+p {
+  margin-left: 40px;
+}
+
+span {
+  background-color: #f17400;
+}
+
+div {
+  margin: 2px;
+  font-size: 20px;
+}
+
+img {
+  border: 5px solid black;
+}
